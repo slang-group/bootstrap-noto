@@ -1,0 +1,30 @@
+{
+  "name": "bootstrap-noto",
+  "version": "0.0.1",
+  "authors": [
+    "Nick Doiron <ndoiron@mapmeld.com>"
+  ],
+  "description": "Bootstrap customized with Google's multilingual Noto fonts",
+  "main": "main.js",
+  "keywords": [
+    "bootstrap",
+    "noto",
+    "i18n",
+    "l10n",
+    "internationalization",
+    "localization"
+  ],
+  "license": "MIT",
+  "homepage": "http://mapmeld.github.io/bootstrap-noto/",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass-official": "~3.3.4",
+    "fontawesome": "~4.3.0"
+  }
+}

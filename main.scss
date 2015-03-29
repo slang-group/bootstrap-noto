@@ -1,0 +1,21 @@
+$font-family-sans-serif:  'Noto Sans', sans-serif !default;
+$font-family-serif:       'Noto Serif', serif !default;
+$font-family-monospace:   'Noto Sans', monospace !default;
+$font-family-base:        $font-family-sans-serif !default;
+
+$useGoogleFonts: true;
+$fontURL: 'fonts/';
+$activeLanguages: ('Noto Sans', 'Noto Serif');
+$includeBold: true;
+
+@import 'languages';
+@import 'bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap';
+
+/*
+// customize above, or load individual fonts
+// Sample Font Import
+@font-face {
+  font-family: 'Noto Sans Bamum';
+  src: url('docs/NotoSansBamum-Regular.ttf');
+}
+*/

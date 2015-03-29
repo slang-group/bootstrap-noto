@@ -1,0 +1,26 @@
+{
+  "name": "bootstrap-noto",
+  "version": "0.0.1",
+  "description": "customized Bootstrap for Google's multilingual Noto fonts",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mapmeld/bootstrap-noto"
+  },
+  "keywords": [
+    "bootstrap",
+    "i18n",
+    "l10n"
+  ],
+  "contributors": [
+    "Nick Doiron"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "node-sass": "2.x",
+    "clean-css": "3.1.x"
+  },
+  "scripts": {
+    "dist": "node-sass main.scss dist/bootstrap-noto.css && cleancss -o dist/bootstrap-noto.min.css dist/bootstrap-noto.css"
+  }
+}

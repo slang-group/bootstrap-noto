@@ -1,0 +1,1031 @@
+@if index($activeLanguages, 'Noto Sans') {
+  @if $useGoogleFonts {
+    @import url(http://fonts.googleapis.com/css?family=Noto+Sans);
+    @if $includeBold {
+      @import url(http://fonts.googleapis.com/css?family=Noto+Sans:700);
+    }
+  } @else {
+    @font-face {
+      font-family: 'Noto Sans';
+      src: url("#{$fontURL}NotoSans-Regular.ttf");
+    }
+    @if $includeBold {
+      @font-face {
+        font-family: 'Noto Sans Bold';
+        src: url("#{$fontURL}NotoSans-Bold.ttf");
+      }
+    }
+  }
+}
+
+@if index($activeLanguages, 'Noto Serif') {
+  @if $useGoogleFonts {
+    @import url(http://fonts.googleapis.com/css?family=Noto+Serif);
+    @if $includeBold {
+      @import url(http://fonts.googleapis.com/css?family=Noto+Serif:700);
+    }
+  } @else {
+    @font-face {
+      font-family: 'Noto Serif';
+      src: url("#{$fontURL}NotoSerif-Regular.ttf");
+    }
+    @if $includeBold {
+      @font-face {
+        font-family: 'Noto Serif Bold';
+        src: url("#{$fontURL}NotoSerif-Bold.ttf");
+      }
+    }
+  }
+}
+
+@if index($activeLanguages, 'Noto Naskh Arabic') {
+  @font-face {
+    font-family: 'Noto Naskh Arabic';
+    src: url("#{$fontURL}NotoNaskhArabic-Regular.ttf");
+  }
+  @if $includeBold {
+    @font-face {
+      font-family: 'Noto Naskh Arabic Bold';
+      src: url("#{$fontURL}NotoNaskhArabic-Bold.ttf");
+    }
+  }
+}
+@if index($activeLanguages, 'Noto Kufi Arabic') {
+  @font-face {
+    font-family: 'Noto Kufi Arabic';
+    src: url("#{$fontURL}NotoKufiArabic-Regular.ttf");
+  }
+  @if $includeBold {
+    @font-face {
+      font-family: 'Noto Kufi Arabic Bold';
+      src: url("#{$fontURL}NotoKufiArabic-Bold.ttf");
+    }
+  }
+}
+@if index($activeLanguages, 'Noto Sans Armenian') {
+  @font-face {
+    font-family: 'Noto Sans Armenian';
+    src: url("#{$fontURL}NotoSansArmenian-Regular.ttf");
+  }
+  @if $includeBold {
+    @font-face {
+      font-family: 'Noto Sans Armenian Bold';
+      src: url("#{$fontUrl}NotoSansArmenian-Bold.ttf");
+    }
+  }
+}
+@if index($activeLanguages, 'Noto Serif Armenian') {
+  @font-face {
+    font-family: 'Noto Serif Armenian';
+    src: url("#{$fontURL}NotoSerifArmenian-Regular.ttf");
+  }
+  @if $includeBold {
+    @font-face {
+      font-family: 'Noto Serif Armenian Bold';
+      src: url("#{$fontUrl}NotoSerifArmenian-Bold.ttf");
+    }
+  }
+}
+@if index($activeLanguages, 'Noto Sans Avestan') {
+  @font-face {
+    font-family: 'Noto Sans Avestan';
+    src: url("#{$fontURL}NotoSansAvestan-Regular.ttf");
+  }
+}
+@if index($activeLanguages, 'Noto Sans Balinese') {
+  @font-face {
+    font-family: 'Noto Sans Balinese';
+    src: url("#{$fontURL}NotoSansBalinese-Regular.ttf");
+  }
+}
+@if index($activeLanguages, 'Noto Sans Bamum') {
+  @font-face {
+    font-family: 'Noto Sans Bamum';
+    src: url("#{$fontURL}NotoSansBamum-Regular.ttf");
+  }
+}
+@if index($activeLanguages, 'Noto Sans Batak') {
+  @font-face {
+    font-family: 'Noto Sans Batak';
+    src: url("#{$fontURL}NotoSansBatak-Regular.ttf");
+  }
+}
+@if index($activeLanguages, 'Noto Sans Bengali') {
+  @font-face {
+    font-family: 'Noto Sans Bengali';
+    src: url("#{$fontURL}NotoSansBengali-Regular.ttf");
+  }
+  @if $includeBold {
+    @font-face {
+      font-family: 'Noto Sans Bengali Bold';
+      src: url("#{$fontUrl}NotoSansBengali-Bold.ttf");
+    }
+  }
+}
+@if index($activeLanguages, 'Noto Sans Brahmi') {
+  @font-face {
+    font-family: 'Noto Sans Brahmi';
+    src: url("#{$fontURL}NotoSansBrahmi-Regular.ttf");
+  }
+}
+@if index($activeLanguages, 'Noto Sans Buginese') {
+  @font-face {
+    font-family: 'Noto Sans Buginese';
+    src: url("#{$fontURL}NotoSansBuginese-Regular.ttf");
+  }
+}
+@if index($activeLanguages, 'Noto Sans Buhid') {
+  @font-face {
+    font-family: 'Noto Sans Buhid';
+    src: url("#{$fontURL}NotoSansBuhid-Regular.ttf");
+  }
+}
+@if index($activeLanguages, 'Noto Sans Canadian Aboriginal') {
+  @font-face {
+    font-family: 'Noto Sans Canadian Aboriginal';
+    src: url("#{$fontURL}NotoSansCanadianAboriginal-Regular.ttf");
+  }
+}
+@if index($activeLanguages, 'Noto Sans Carian') {
+  @font-face {
+    font-family: 'Noto Sans Carian';
+    src: url("#{$fontURL}NotoSansCarian-Regular.ttf");
+  }
+}
+@if index($activeLanguages, 'Noto Sans Cham') {
+  @font-face {
+    font-family: 'Noto Sans Cham';
+    src: url("#{$fontURL}NotoSansCham-Regular.ttf");
+  }
+  @if $includeBold {
+    @font-face {
+      font-family: 'Noto Sans Cham Bold';
+      src: url("#{$fontUrl}NotoSansCham-Bold.ttf");
+    }
+  }
+}
+@if index($activeLanguages, 'Noto Sans Cherokee') {
+  @font-face {
+    font-family: 'Noto Sans Cherokee';
+    src: url("#{$fontURL}NotoSansCherokee-Regular.ttf");
+  }
+}
+@if index($activeLanguages, 'Noto Sans Coptic') {
+  @font-face {
+    font-family: 'Noto Sans Coptic';
+    src: url("#{$fontURL}NotoSansCoptic-Regular.ttf");
+  }
+}
+@if index($activeLanguages, 'Noto Sans Cuneiform') {
+  @font-face {
+    font-family: 'Noto Sans Cuneiform';
+    src: url("#{$fontURL}NotoSansCuneiform-Regular.ttf");
+  }
+}
+@if index($activeLanguages, 'Noto Sans Cypriot') {
+  @font-face {
+    font-family: 'Noto Sans Cypriot';
+    src: url("#{$fontURL}NotoSansCypriot-Regular.ttf");
+  }
+}
+@if index($activeLanguages, 'Noto Sans Deseret') {
+  @font-face {
+    font-family: 'Noto Sans Deseret';
+    src: url("#{$fontURL}NotoSansDeseret-Regular.ttf");
+  }
+}
+@if index($activeLanguages, 'Noto Sans Devanagari') {
+  @font-face {
+    font-family: 'Noto Sans Devanagari';
+    src: url("#{$fontURL}NotoSansDevanagari-Regular.ttf");
+  }
+  @if $includeBold {
+    @font-face {
+      font-family: 'Noto Sans Devanagari Bold';
+      src: url("#{$fontUrl}NotoSansDevanagari-Bold.ttf");
+    }
+  }
+}
+@if index($activeLanguages, 'Noto Sans Egyptian Hieroglyphs') {
+  @font-face {
+    font-family: 'Noto Sans Egyptian Hieroglyphs';
+    src: url("#{$fontURL}NotoSansEgyptianHieroglyphs-Regular.ttf");
+  }
+}
+@if index($activeLanguages, 'Noto Sans Ethiopic') {
+  @font-face {
+    font-family: 'Noto Sans Ethiopic';
+    src: url("#{$fontURL}NotoSansEthiopic-Regular.ttf");
+  }
+  @if $includeBold {
+    @font-face {
+      font-family: 'Noto Sans Ethiopic Bold';
+      src: url("#{$fontUrl}NotoSansEthiopic-Bold.ttf");
+    }
+  }
+}
+@if index($activeLanguages, 'Noto Sans Georgian') {
+  @font-face {
+    font-family: 'Noto Sans Georgian';
+    src: url("#{$fontURL}NotoSansGeorgian-Regular.ttf");
+  }
+  @if $includeBold {
+    @font-face {
+      font-family: 'Noto Sans Georgian Bold';
+      src: url("#{$fontUrl}NotoSansGeorgian-Bold.ttf");
+    }
+  }
+}
+@if index($activeLanguages, 'Noto Serif Georgian') {
+  @font-face {
+    font-family: 'Noto Serif Georgian';
+    src: url("#{$fontURL}NotoSerifGeorgian-Regular.ttf");
+  }
+  @if $includeBold {
+    @font-face {
+      font-family: 'Noto Serif Georgian Bold';
+      src: url("#{$fontUrl}NotoSerifGeorgian-Bold.ttf");
+    }
+  }
+}
+@if index($activeLanguages, 'Noto Sans Glagolitic') {
+  @font-face {
+    font-family: 'Noto Sans Glagolitic';
+    src: url("#{$fontURL}NotoSansGlagolitic-Regular.ttf");
+  }
+}
+@if index($activeLanguages, 'Noto Sans Gothic') {
+  @font-face {
+    font-family: 'Noto Sans Gothic';
+    src: url("#{$fontURL}NotoSansGothic-Regular.ttf");
+  }
+}
+@if index($activeLanguages, 'Noto Sans Gujarati') {
+  @font-face {
+    font-family: 'Noto Sans Gujarati';
+    src: url("#{$fontURL}NotoSansGujarati-Regular.ttf");
+  }
+  @if $includeBold {
+    @font-face {
+      font-family: 'Noto Sans Gujarati Bold';
+      src: url("#{$fontUrl}NotoSansGujarati-Bold.ttf");
+    }
+  }
+}
+@if index($activeLanguages, 'Noto Sans Gurmukhi') {
+  @font-face {
+    font-family: 'Noto Sans Gurmukhi';
+    src: url("#{$fontURL}NotoSansGurmukhi-Regular.ttf");
+  }
+  @if $includeBold {
+    @font-face {
+      font-family: 'Noto Sans Gurmukhi Bold';
+      src: url("#{$fontUrl}NotoSansGurmukhi-Bold.ttf");
+    }
+  }
+}
+@if index($activeLanguages, 'Noto Sans Hanunoo') {
+  @font-face {
+    font-family: 'Noto Sans Hanunoo';
+    src: url("#{$fontURL}NotoSansHanunoo-Regular.ttf");
+  }
+}
+@if index($activeLanguages, 'Noto Sans Hebrew') {
+  @font-face {
+    font-family: 'Noto Sans Hebrew';
+    src: url("#{$fontURL}NotoSansHebrew-Regular.ttf");
+  }
+  @if $includeBold {
+    @font-face {
+      font-family: 'Noto Sans Hebrew Bold';
+      src: url("#{$fontUrl}NotoSansHebrew-Bold.ttf");
+    }
+  }
+}
+@if index($activeLanguages, 'Noto Sans Imperial Aramaic') {
+  @font-face {
+    font-family: 'Noto Sans Imperial Aramaic';
+    src: url("#{$fontURL}NotoSansImperialAramaic-Regular.ttf");
+  }
+}
+@if index($activeLanguages, 'Noto Sans Inscriptional Pahlavi') {
+  @font-face {
+    font-family: 'Noto Sans Inscriptional Pahlavi';
+    src: url("#{$fontURL}NotoSansInscriptionalPahlavi-Regular.ttf");
+  }
+}
+@if index($activeLanguages, 'Noto Sans Inscriptional Parthian') {
+  @font-face {
+    font-family: 'Noto Sans Inscriptional Parthian';
+    src: url("#{$fontURL}NotoSansInscriptionalParthian-Regular.ttf");
+  }
+}
+@if index($activeLanguages, 'Noto Sans Javanese') {
+  @font-face {
+    font-family: 'Noto Sans Javanese';
+    src: url("#{$fontURL}NotoSansJavanese-Regular.ttf");
+  }
+}
+@if index($activeLanguages, 'Noto Sans Kaithi') {
+  @font-face {
+    font-family: 'Noto Sans Kaithi';
+    src: url("#{$fontURL}NotoSansKaithi-Regular.ttf");
+  }
+}
+@if index($activeLanguages, 'Noto Sans Kannada') {
+  @font-face {
+    font-family: 'Noto Sans Kannada';
+    src: url("#{$fontURL}NotoSansKannada-Regular.ttf");
+  }
+  @if $includeBold {
+    @font-face {
+      font-family: 'Noto Sans Kannada Bold';
+      src: url("#{$fontUrl}NotoSansKannada-Bold.ttf");
+    }
+  }
+}
+@if index($activeLanguages, 'Noto Sans Kayah Li') {
+  @font-face {
+    font-family: 'Noto Sans Kayah Li';
+    src: url("#{$fontURL}NotoSansKayahLi-Regular.ttf");
+  }
+}
+@if index($activeLanguages, 'Noto Sans Kharoshthi') {
+  @font-face {
+    font-family: 'Noto Sans Kharoshthi';
+    src: url("#{$fontURL}NotoSansKharoshthi-Regular.ttf");
+  }
+}
+@if index($activeLanguages, 'Noto Sans Khmer') {
+  @font-face {
+    font-family: 'Noto Sans Khmer';
+    src: url("#{$fontURL}NotoSansKhmer-Regular.ttf");
+  }
+  @if $includeBold {
+    @font-face {
+      font-family: 'Noto Sans Khmer Bold';
+      src: url("#{$fontUrl}NotoSansKhmer-Bold.ttf");
+    }
+  }
+}
+@if index($activeLanguages, 'Noto Serif Khmer') {
+  @font-face {
+    font-family: 'Noto Serif Khmer';
+    src: url("#{$fontURL}NotoSerifKhmer-Regular.ttf");
+  }
+  @if $includeBold {
+    @font-face {
+      font-family: 'Noto Serif Khmer Bold';
+      src: url("#{$fontUrl}NotoSerifKhmer-Bold.ttf");
+    }
+  }
+}
+@if index($activeLanguages, 'Noto Serif Lao') {
+  @font-face {
+    font-family: 'Noto Serif Lao';
+    src: url("#{$fontURL}NotoSerifLao-Regular.ttf");
+  }
+  @if $includeBold {
+    @font-face {
+      font-family: 'Noto Serif Lao Bold';
+      src: url("#{$fontUrl}NotoSerifLao-Bold.ttf");
+    }
+  }
+}
+@if index($activeLanguages, 'Noto Sans Lao') {
+  @font-face {
+    font-family: 'Noto Sans Lao';
+    src: url("#{$fontURL}NotoSansLao-Regular.ttf");
+  }
+  @if $includeBold {
+    @font-face {
+      font-family: 'Noto Sans Lao Bold';
+      src: url("#{$fontUrl}NotoSansLao-Bold.ttf");
+    }
+  }
+}
+@if index($activeLanguages, 'Noto Sans Lepcha') {
+  @font-face {
+    font-family: 'Noto Sans Lepcha';
+    src: url("#{$fontURL}NotoSansLepcha-Regular.ttf");
+  }
+}
+@if index($activeLanguages, 'Noto Sans Limbu') {
+  @font-face {
+    font-family: 'Noto Sans Limbu';
+    src: url("#{$fontURL}NotoSansLimbu-Regular.ttf");
+  }
+}
+@if index($activeLanguages, 'Noto Sans Linear B') {
+  @font-face {
+    font-family: 'Noto Sans Linear B';
+    src: url("#{$fontURL}NotoSansLinearB-Regular.ttf");
+  }
+}
+@if index($activeLanguages, 'Noto Sans Lisu') {
+  @font-face {
+    font-family: 'Noto Sans Lisu';
+    src: url("#{$fontURL}NotoSansLisu-Regular.ttf");
+  }
+}
+@if index($activeLanguages, 'Noto Sans Lycian') {
+  @font-face {
+    font-family: 'Noto Sans Lycian';
+    src: url("#{$fontURL}NotoSansLycian-Regular.ttf");
+  }
+}
+@if index($activeLanguages, 'Noto Sans Lydian') {
+  @font-face {
+    font-family: 'Noto Sans Lydian';
+    src: url("#{$fontURL}NotoSansLydian-Regular.ttf");
+  }
+}
+@if index($activeLanguages, 'Noto Sans Malayalam') {
+  @font-face {
+    font-family: 'Noto Sans Malayalam';
+    src: url("#{$fontURL}NotoSansMalayalam-Regular.ttf");
+  }
+  @if $includeBold {
+    @font-face {
+      font-family: 'Noto Sans Malayalam Bold';
+      src: url("#{$fontUrl}NotoSansMalayalam-Bold.ttf");
+    }
+  }
+}
+@if index($activeLanguages, 'Noto Sans Mandaic') {
+  @font-face {
+    font-family: 'Noto Sans Mandaic';
+    src: url("#{$fontURL}NotoSansMandaic-Regular.ttf");
+  }
+}
+@if index($activeLanguages, 'Noto Sans Meetei Mayek') {
+  @font-face {
+    font-family: 'Noto Sans Meetei Mayek';
+    src: url("#{$fontURL}NotoSansMeeteiMayek-Regular.ttf");
+  }
+}
+@if index($activeLanguages, 'Noto Sans Mongolian') {
+  @font-face {
+    font-family: 'Noto Sans Mongolian';
+    src: url("#{$fontURL}NotoSansMongolian-Regular.ttf");
+  }
+}
+@if index($activeLanguages, 'Noto Sans Myanmar') {
+  @font-face {
+    font-family: 'Noto Sans Myanmar';
+    src: url("#{$fontURL}NotoSansMyanmar-Regular.ttf");
+  }
+  @if $includeBold {
+    @font-face {
+      font-family: 'Noto Sans Myanmar Bold';
+      src: url("#{$fontUrl}NotoSansMyanmar-Bold.ttf");
+    }
+  }
+}
+@if index($activeLanguages, 'Noto Sans New Tai Lue') {
+  @font-face {
+    font-family: 'Noto Sans New Tai Lue';
+    src: url("#{$fontURL}NotoSansNewTaiLue-Regular.ttf");
+  }
+}
+@if index($activeLanguages, 'Noto Sans NKo') {
+  @font-face {
+    font-family: 'Noto Sans NKo';
+    src: url("#{$fontURL}NotoSansNKo-Regular.ttf");
+  }
+}
+@if index($activeLanguages, 'Noto Sans Ogham') {
+  @font-face {
+    font-family: 'Noto Sans Ogham';
+    src: url("#{$fontURL}NotoSansOgham-Regular.ttf");
+  }
+}
+@if index($activeLanguages, 'Noto Sans Ol Chiki') {
+  @font-face {
+    font-family: 'Noto Sans Ol Chiki';
+    src: url("#{$fontURL}NotoSansOlChiki-Regular.ttf");
+  }
+}
+@if index($activeLanguages, 'Noto Sans Old Italic') {
+  @font-face {
+    font-family: 'Noto Sans Old Italic';
+    src: url("#{$fontURL}NotoSansOldItalic-Regular.ttf");
+  }
+}
+@if index($activeLanguages, 'Noto Sans Old Persian') {
+  @font-face {
+    font-family: 'Noto Sans Old Persian';
+    src: url("#{$fontURL}NotoSansOldPersian-Regular.ttf");
+  }
+}
+@if index($activeLanguages, 'Noto Sans Old South Arabian') {
+  @font-face {
+    font-family: 'Noto Sans Old South Arabian';
+    src: url("#{$fontURL}NotoSansOldSouthArabian-Regular.ttf");
+  }
+}
+@if index($activeLanguages, 'Noto Sans Old Turkic') {
+  @font-face {
+    font-family: 'Noto Sans Old Turkic';
+    src: url("#{$fontURL}NotoSansOldTurkic-Regular.ttf");
+  }
+}
+@if index($activeLanguages, 'Noto Sans Oriya') {
+  @font-face {
+    font-family: 'Noto Sans Oriya';
+    src: url("#{$fontURL}NotoSansOriya-Regular.ttf");
+  }
+}
+@if index($activeLanguages, 'Noto Sans Osmanya') {
+  @font-face {
+    font-family: 'Noto Sans Osmanya';
+    src: url("#{$fontURL}NotoSansOsmanya-Regular.ttf");
+  }
+}
+@if index($activeLanguages, 'Noto Sans Phags Pa') {
+  @font-face {
+    font-family: 'Noto Sans Phags Pa';
+    src: url("#{$fontURL}NotoSansPhagsPa-Regular.ttf");
+  }
+}
+@if index($activeLanguages, 'Noto Sans Phoenician') {
+  @font-face {
+    font-family: 'Noto Sans Phoenician';
+    src: url("#{$fontURL}NotoSansPhoenician-Regular.ttf");
+  }
+}
+@if index($activeLanguages, 'Noto Sans Rejang') {
+  @font-face {
+    font-family: 'Noto Sans Rejang';
+    src: url("#{$fontURL}NotoSansRejang-Regular.ttf");
+  }
+}
+@if index($activeLanguages, 'Noto Sans Runic') {
+  @font-face {
+    font-family: 'Noto Sans Runic';
+    src: url("#{$fontURL}NotoSansRunic-Regular.ttf");
+  }
+}
+@if index($activeLanguages, 'Noto Sans Samaritan') {
+  @font-face {
+    font-family: 'Noto Sans Samaritan';
+    src: url("#{$fontURL}NotoSansSamaritan-Regular.ttf");
+  }
+}
+@if index($activeLanguages, 'Noto Sans Saurashtra') {
+  @font-face {
+    font-family: 'Noto Sans Saurashtra';
+    src: url("#{$fontURL}NotoSansSaurashtra-Regular.ttf");
+  }
+}
+@if index($activeLanguages, 'Noto Sans Shavian') {
+  @font-face {
+    font-family: 'Noto Sans Shavian';
+    src: url("#{$fontURL}NotoSansShavian-Regular.ttf");
+  }
+}
+@if index($activeLanguages, 'Noto Sans Sinhala') {
+  @font-face {
+    font-family: 'Noto Sans Sinhala';
+    src: url("#{$fontURL}NotoSansSinhala-Regular.ttf");
+  }
+  @if $includeBold {
+    @font-face {
+      font-family: 'Noto Sans Sinhala Bold';
+      src: url("#{$fontUrl}NotoSansSinhala-Bold.ttf");
+    }
+  }
+}
+@if index($activeLanguages, 'Noto Sans Sundanese') {
+  @font-face {
+    font-family: 'Noto Sans Sundanese';
+    src: url("#{$fontURL}NotoSansSundanese-Regular.ttf");
+  }
+}
+@if index($activeLanguages, 'Noto Sans Syloti Nagri') {
+  @font-face {
+    font-family: 'Noto Sans Syloti Nagri';
+    src: url("#{$fontURL}NotoSansSylotiNagri-Regular.ttf");
+  }
+}
+@if index($activeLanguages, 'Noto Sans Symbols') {
+  @font-face {
+    font-family: 'Noto Sans Symbols';
+    src: url("#{$fontURL}NotoSansSymbols-Regular.ttf");
+  }
+}
+@if index($activeLanguages, 'Noto Sans Syriac Eastern') {
+  @font-face {
+    font-family: 'Noto Sans Syriac Eastern';
+    src: url("#{$fontURL}NotoSansSyriacEastern-Regular.ttf");
+  }
+}
+@if index($activeLanguages, 'Noto Sans Syriac Estrangela') {
+  @font-face {
+    font-family: 'Noto Sans Syriac Estrangela';
+    src: url("#{$fontURL}NotoSansSyriacEstrangela-Regular.ttf");
+  }
+}
+@if index($activeLanguages, 'Noto Sans Syriac Western') {
+  @font-face {
+    font-family: 'Noto Sans Syriac Western';
+    src: url("#{$fontURL}NotoSansSyriacWestern-Regular.ttf");
+  }
+}
+@if index($activeLanguages, 'Noto Sans Tagalog') {
+  @font-face {
+    font-family: 'Noto Sans Tagalog';
+    src: url("#{$fontURL}NotoSansTagalog-Regular.ttf");
+  }
+}
+@if index($activeLanguages, 'Noto Sans Tagbanwa') {
+  @font-face {
+    font-family: 'Noto Sans Tagbanwa';
+    src: url("#{$fontURL}NotoSansTagbanwa-Regular.ttf");
+  }
+}
+@if index($activeLanguages, 'Noto Sans Tai Le') {
+  @font-face {
+    font-family: 'Noto Sans Tai Le';
+    src: url("#{$fontURL}NotoSansTaiLe-Regular.ttf");
+  }
+}
+@if index($activeLanguages, 'Noto Sans Tai Tham') {
+  @font-face {
+    font-family: 'Noto Sans Tai Tham';
+    src: url("#{$fontURL}NotoSansTaiTham-Regular.ttf");
+  }
+}
+@if index($activeLanguages, 'Noto Sans Tai Viet') {
+  @font-face {
+    font-family: 'Noto Sans Tai Viet';
+    src: url("#{$fontURL}NotoSansTaiViet-Regular.ttf");
+  }
+}
+@if index($activeLanguages, 'Noto Sans Tamil') {
+  @font-face {
+    font-family: 'Noto Sans Tamil';
+    src: url("#{$fontURL}NotoSansTamil-Regular.ttf");
+  }
+  @if $includeBold {
+    @font-face {
+      font-family: 'Noto Sans Tamil Bold';
+      src: url("#{$fontUrl}NotoSansTamil-Bold.ttf");
+    }
+  }
+}
+@if index($activeLanguages, 'Noto Sans Telugu') {
+  @font-face {
+    font-family: 'Noto Sans Telugu';
+    src: url("#{$fontURL}NotoSansTelugu-Regular.ttf");
+  }
+  @if $includeBold {
+    @font-face {
+      font-family: 'Noto Sans Telugu Bold';
+      src: url("#{$fontUrl}NotoSansTelugu-Bold.ttf");
+    }
+  }
+}
+@if index($activeLanguages, 'Noto Sans Thaana') {
+  @font-face {
+    font-family: 'Noto Sans Thaana';
+    src: url("#{$fontURL}NotoSansThaana-Regular.ttf");
+  }
+  @if $includeBold {
+    @font-face {
+      font-family: 'Noto Sans Thaana Bold';
+      src: url("#{$fontUrl}NotoSansThaana-Bold.ttf");
+    }
+  }
+}
+@if index($activeLanguages, 'Noto Serif Thai') {
+  @font-face {
+    font-family: 'Noto Serif Thai';
+    src: url("#{$fontURL}NotoSerifThai-Regular.ttf");
+  }
+  @if $includeBold {
+    @font-face {
+      font-family: 'Noto Serif Thai Bold';
+      src: url("#{$fontUrl}NotoSerifThai-Bold.ttf");
+    }
+  }
+}
+@if index($activeLanguages, 'Noto Sans Thai') {
+  @font-face {
+    font-family: 'Noto Sans Thai';
+    src: url("#{$fontURL}NotoSansThai-Regular.ttf");
+  }
+  @if $includeBold {
+    @font-face {
+      font-family: 'Noto Sans Thai Bold';
+      src: url("#{$fontUrl}NotoSansThai-Bold.ttf");
+    }
+  }
+}
+@if index($activeLanguages, 'Noto Sans Tifinagh') {
+  @font-face {
+    font-family: 'Noto Sans Tifinagh';
+    src: url("#{$fontURL}NotoSansTifinagh-Regular.ttf");
+  }
+}
+@if index($activeLanguages, 'Noto Sans Ugaritic') {
+  @font-face {
+    font-family: 'Noto Sans Ugaritic';
+    src: url("#{$fontURL}NotoSansUgaritic-Regular.ttf");
+  }
+}
+@if index($activeLanguages, 'Noto Sans Vai') {
+  @font-face {
+    font-family: 'Noto Sans Vai';
+    src: url("#{$fontURL}NotoSansVai-Regular.ttf");
+  }
+}
+@if index($activeLanguages, 'Noto Sans Yi') {
+  @font-face {
+    font-family: 'Noto Sans Yi';
+    src: url("#{$fontURL}NotoSansYi-Regular.ttf");
+  }
+}
+
+.noto-sans, noto-sans * {
+  font-family: 'Noto Sans' !important;
+}
+.noto-serif, noto-serif * {
+  font-family: 'Noto Serif' !important;
+}
+.noto-naskh-arabic, noto-naskh-arabic * {
+  font-family: 'Noto Naskh Arabic' !important;
+}
+.noto-kufi-arabic, noto-kufi-arabic * {
+  font-family: 'Noto Kufi Arabic' !important;
+}
+.noto-sans-armenian, noto-sans-armenian * {
+  font-family: 'Noto Sans Armenian' !important;
+}
+.noto-serif-armenian, noto-serif-armenian * {
+  font-family: 'Noto Serif Armenian' !important;
+}
+.noto-sans-avestan, noto-sans-avestan * {
+  font-family: 'Noto Sans Avestan' !important;
+}
+.noto-sans-balinese, noto-sans-balinese * {
+  font-family: 'Noto Sans Balinese' !important;
+}
+.noto-sans-bamum, noto-sans-bamum * {
+  font-family: 'Noto Sans Bamum' !important;
+}
+.noto-sans-batak, noto-sans-batak * {
+  font-family: 'Noto Sans Batak' !important;
+}
+.noto-sans-bengali, noto-sans-bengali * {
+  font-family: 'Noto Sans Bengali' !important;
+}
+.noto-sans-brahmi, noto-sans-brahmi * {
+  font-family: 'Noto Sans Brahmi' !important;
+}
+.noto-sans-buginese, noto-sans-buginese * {
+  font-family: 'Noto Sans Buginese' !important;
+}
+.noto-sans-buhid, noto-sans-buhid * {
+  font-family: 'Noto Sans Buhid' !important;
+}
+.noto-sans-canadian-aboriginal, noto-sans-canadian-aboriginal * {
+  font-family: 'Noto Sans Canadian Aboriginal' !important;
+}
+.noto-sans-carian, noto-sans-carian * {
+  font-family: 'Noto Sans Carian' !important;
+}
+.noto-sans-cham, noto-sans-cham * {
+  font-family: 'Noto Sans Cham' !important;
+}
+.noto-sans-cherokee, noto-sans-cherokee * {
+  font-family: 'Noto Sans Cherokee' !important;
+}
+.noto-sans-coptic, noto-sans-coptic * {
+  font-family: 'Noto Sans Coptic' !important;
+}
+.noto-sans-cuneiform, noto-sans-cuneiform * {
+  font-family: 'Noto Sans Cuneiform' !important;
+}
+.noto-sans-cypriot, noto-sans-cypriot * {
+  font-family: 'Noto Sans Cypriot' !important;
+}
+.noto-sans-deseret, noto-sans-deseret * {
+  font-family: 'Noto Sans Deseret' !important;
+}
+.noto-sans-devanagari, noto-sans-devanagari * {
+  font-family: 'Noto Sans Devanagari' !important;
+}
+.noto-sans-egyptian-hieroglyphs, noto-sans-egyptian-hieroglyphs * {
+  font-family: 'Noto Sans Egyptian Hieroglyphs' !important;
+}
+.noto-sans-ethiopic, noto-sans-ethiopic * {
+  font-family: 'Noto Sans Ethiopic' !important;
+}
+.noto-sans-georgian, noto-sans-georgian * {
+  font-family: 'Noto Sans Georgian' !important;
+}
+.noto-serif-georgian, noto-serif-georgian * {
+  font-family: 'Noto Serif Georgian' !important;
+}
+.noto-sans-glagolitic, noto-sans-glagolitic * {
+  font-family: 'Noto Sans Glagolitic' !important;
+}
+.noto-sans-gothic, noto-sans-gothic * {
+  font-family: 'Noto Sans Gothic' !important;
+}
+.noto-sans-gujarati, noto-sans-gujarati * {
+  font-family: 'Noto Sans Gujarati' !important;
+}
+.noto-sans-gurmukhi, noto-sans-gurmukhi * {
+  font-family: 'Noto Sans Gurmukhi' !important;
+}
+.noto-sans-hanunoo, noto-sans-hanunoo * {
+  font-family: 'Noto Sans Hanunoo' !important;
+}
+.noto-sans-hebrew, noto-sans-hebrew * {
+  font-family: 'Noto Sans Hebrew' !important;
+}
+.noto-sans-imperial-aramaic, noto-sans-imperial-aramaic * {
+  font-family: 'Noto Sans Imperial Aramaic' !important;
+}
+.noto-sans-inscriptional-pahlavi, noto-sans-inscriptional-pahlavi * {
+  font-family: 'Noto Sans Inscriptional Pahlavi' !important;
+}
+.noto-sans-inscriptional-parthian, noto-sans-inscriptional-parthian * {
+  font-family: 'Noto Sans Inscriptional Parthian' !important;
+}
+.noto-sans-javanese, noto-sans-javanese * {
+  font-family: 'Noto Sans Javanese' !important;
+}
+.noto-sans-kaithi, noto-sans-kaithi * {
+  font-family: 'Noto Sans Kaithi' !important;
+}
+.noto-sans-kannada, noto-sans-kannada * {
+  font-family: 'Noto Sans Kannada' !important;
+}
+.noto-sans-kayah-li, noto-sans-kayah-li * {
+  font-family: 'Noto Sans Kayah Li' !important;
+}
+.noto-sans-kharoshthi, noto-sans-kharoshthi * {
+  font-family: 'Noto Sans Kharoshthi' !important;
+}
+.noto-sans-khmer, noto-sans-khmer * {
+  font-family: 'Noto Sans Khmer' !important;
+}
+.noto-serif-khmer, noto-serif-khmer * {
+  font-family: 'Noto Serif Khmer' !important;
+}
+.noto-serif-lao, noto-serif-lao * {
+  font-family: 'Noto Serif Lao' !important;
+}
+.noto-sans-lao, noto-sans-lao * {
+  font-family: 'Noto Sans Lao' !important;
+}
+.noto-sans-lepcha, noto-sans-lepcha * {
+  font-family: 'Noto Sans Lepcha' !important;
+}
+.noto-sans-limbu, noto-sans-limbu * {
+  font-family: 'Noto Sans Limbu' !important;
+}
+.noto-sans-linear-b, noto-sans-linear-b * {
+  font-family: 'Noto Sans Linear B' !important;
+}
+.noto-sans-lisu, noto-sans-lisu * {
+  font-family: 'Noto Sans Lisu' !important;
+}
+.noto-sans-lycian, noto-sans-lycian * {
+  font-family: 'Noto Sans Lycian' !important;
+}
+.noto-sans-lydian, noto-sans-lydian * {
+  font-family: 'Noto Sans Lydian' !important;
+}
+.noto-sans-malayalam, noto-sans-malayalam * {
+  font-family: 'Noto Sans Malayalam' !important;
+}
+.noto-sans-mandaic, noto-sans-mandaic * {
+  font-family: 'Noto Sans Mandaic' !important;
+}
+.noto-sans-meetei-mayek, noto-sans-meetei-mayek * {
+  font-family: 'Noto Sans Meetei Mayek' !important;
+}
+.noto-sans-mongolian, noto-sans-mongolian * {
+  font-family: 'Noto Sans Mongolian' !important;
+}
+.noto-sans-myanmar, noto-sans-myanmar * {
+  font-family: 'Noto Sans Myanmar' !important;
+}
+.noto-sans-new-tai lue, noto-sans-new-tai lue * {
+  font-family: 'Noto Sans New Tai Lue' !important;
+}
+.noto-sans-nko, noto-sans-nko * {
+  font-family: 'Noto Sans NKo' !important;
+}
+.noto-sans-ogham, noto-sans-ogham * {
+  font-family: 'Noto Sans Ogham' !important;
+}
+.noto-sans-ol-chiki, noto-sans-ol-chiki * {
+  font-family: 'Noto Sans Ol Chiki' !important;
+}
+.noto-sans-old-italic, noto-sans-old-italic * {
+  font-family: 'Noto Sans Old Italic' !important;
+}
+.noto-sans-old-persian, noto-sans-old-persian * {
+  font-family: 'Noto Sans Old Persian' !important;
+}
+.noto-sans-old-south arabian, noto-sans-old-south arabian * {
+  font-family: 'Noto Sans Old South Arabian' !important;
+}
+.noto-sans-old-turkic, noto-sans-old-turkic * {
+  font-family: 'Noto Sans Old Turkic' !important;
+}
+.noto-sans-oriya, noto-sans-oriya * {
+  font-family: 'Noto Sans Oriya' !important;
+}
+.noto-sans-osmanya, noto-sans-osmanya * {
+  font-family: 'Noto Sans Osmanya' !important;
+}
+.noto-sans-phags-pa, noto-sans-phags-pa * {
+  font-family: 'Noto Sans Phags Pa' !important;
+}
+.noto-sans-phoenician, noto-sans-phoenician * {
+  font-family: 'Noto Sans Phoenician' !important;
+}
+.noto-sans-rejang, noto-sans-rejang * {
+  font-family: 'Noto Sans Rejang' !important;
+}
+.noto-sans-runic, noto-sans-runic * {
+  font-family: 'Noto Sans Runic' !important;
+}
+.noto-sans-samaritan, noto-sans-samaritan * {
+  font-family: 'Noto Sans Samaritan' !important;
+}
+.noto-sans-saurashtra, noto-sans-saurashtra * {
+  font-family: 'Noto Sans Saurashtra' !important;
+}
+.noto-sans-shavian, noto-sans-shavian * {
+  font-family: 'Noto Sans Shavian' !important;
+}
+.noto-sans-sinhala, noto-sans-sinhala * {
+  font-family: 'Noto Sans Sinhala' !important;
+}
+.noto-sans-sundanese, noto-sans-sundanese * {
+  font-family: 'Noto Sans Sundanese' !important;
+}
+.noto-sans-syloti-nagri, noto-sans-syloti-nagri * {
+  font-family: 'Noto Sans Syloti Nagri' !important;
+}
+.noto-sans-symbols, noto-sans-symbols * {
+  font-family: 'Noto Sans Symbols' !important;
+}
+.noto-sans-syriac-eastern, noto-sans-syriac-eastern * {
+  font-family: 'Noto Sans Syriac Eastern' !important;
+}
+.noto-sans-syriac-estrangela, noto-sans-syriac-estrangela * {
+  font-family: 'Noto Sans Syriac Estrangela' !important;
+}
+.noto-sans-syriac-western, noto-sans-syriac-western * {
+  font-family: 'Noto Sans Syriac Western' !important;
+}
+.noto-sans-tagalog, noto-sans-tagalog * {
+  font-family: 'Noto Sans Tagalog' !important;
+}
+.noto-sans-tagbanwa, noto-sans-tagbanwa * {
+  font-family: 'Noto Sans Tagbanwa' !important;
+}
+.noto-sans-tai-le, noto-sans-tai-le * {
+  font-family: 'Noto Sans Tai Le' !important;
+}
+.noto-sans-tai-tham, noto-sans-tai-tham * {
+  font-family: 'Noto Sans Tai Tham' !important;
+}
+.noto-sans-tai-viet, noto-sans-tai-viet * {
+  font-family: 'Noto Sans Tai Viet' !important;
+}
+.noto-sans-tamil, noto-sans-tamil * {
+  font-family: 'Noto Sans Tamil' !important;
+}
+.noto-sans-telugu, noto-sans-telugu * {
+  font-family: 'Noto Sans Telugu' !important;
+}
+.noto-sans-thaana, noto-sans-thaana * {
+  font-family: 'Noto Sans Thaana' !important;
+}
+.noto-serif-thai, noto-serif-thai * {
+  font-family: 'Noto Serif Thai' !important;
+}
+.noto-sans-thai, noto-sans-thai * {
+  font-family: 'Noto Sans Thai' !important;
+}
+.noto-sans-tifinagh, noto-sans-tifinagh * {
+  font-family: 'Noto Sans Tifinagh' !important;
+}
+.noto-sans-ugaritic, noto-sans-ugaritic * {
+  font-family: 'Noto Sans Ugaritic' !important;
+}
+.noto-sans-vai, noto-sans-vai * {
+  font-family: 'Noto Sans Vai' !important;
+}
+.noto-sans-yi, noto-sans-yi * {
+  font-family: 'Noto Sans Yi' !important;
+}
