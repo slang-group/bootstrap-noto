@@ -1,5 +1,7 @@
 # Bootstrap-Noto
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/slang-group/bootstrap-noto.svg)](https://greenkeeper.io/)
+
 Simple customization using the Google Noto family of fonts in Bootstrap framework.
 
 Google Noto supports dozens of alphabets supporting hundreds of languages, and this helps you
