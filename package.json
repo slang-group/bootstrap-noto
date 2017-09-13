@@ -17,8 +17,8 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "node-sass": "2.x",
-    "clean-css": "3.1.x"
+    "node-sass": "^4.5.3",
+    "clean-css": "~4.1.8"
   },
   "scripts": {
     "dist": "node-sass main.scss dist/bootstrap-noto.css && cleancss -o dist/bootstrap-noto.min.css dist/bootstrap-noto.css"
